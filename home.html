@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueve Apartments • Two Distinctive Apartments</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#home">
+                    <span class="brand-text">LOGO</span>
+                    <span class="brand-subtitle">HERE</span>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">HOME</a>
+                <div class="nav-dropdown">
+                    <span class="nav-link">APARTMENTS</span>
+                    <div class="dropdown-content">
+                        <a href="#classic">CLASSIC</a>
+                        <a href="#mini">mini</a>
+                    </div>
+                </div>
+                <a href="#experiences" class="nav-link">EXPERIENCES</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-language">
+                    <a href="#" class="lang-link active">EN</a>
+                </div>
+                <div class="nav-auth">
+                    <a href="#login" class="auth-btn login-btn">LOGIN</a>
+                    <a href="#signup" class="auth-btn signup-btn">SIGNUP</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">there is no place like</span>
+                <span class="title-line highlight">home.</span>
+            </h1>
+        </div>
+        <div class="hero-images">
+            <div class="hero-image-grid">
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=240&h=300&fit=crop" alt="Apartment interior" class="hero-img">
+                <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=240&h=300&fit=crop" alt="Apartment interior" class="hero-img">
+                <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=240&h=300&fit=crop" alt="Apartment interior" class="hero-img">
+                <img src="https://images.unsplash.com/photo-1560185009-5bf9f2849488?w=240&h=300&fit=crop" alt="Apartment interior" class="hero-img">
+                <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=240&h=300&fit=crop" alt="Apartment interior" class="hero-img">
+                <img src="https://images.unsplash.com/photo-1560184897-ae75f418493e?w=240&h=300&fit=crop" alt="Apartment interior" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">Decorations</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    Two distinctive apartments, designed with emphasis on comfort, style and functionality,
+                    offer you a unique accommodation experience.
+                </p>
+                <p class="about-text">
+                    Whether you prefer the spaciousness of <strong>Classic</strong>, with its two bedrooms
+                    and comfortable balcony overlooking a central street, or the more compact luxury of
+                    <strong>Mini</strong>, which features a large private terrace with stunning sea views,
+                    both options guarantee an unforgettable stay.
+                </p>
+                <p class="about-text">
+                    With modern decoration, earthy tones and all the amenities you need, our apartments
+                    are ideal for families, couples or business travelers. Relax, enjoy your space and
+                    discover the city at your own pace.
+                </p>
+            </div>
+            <div class="apartment-links">
+                <a href="#classic" class="apartment-link">
+                    <h3>CLASSIC</h3>
+                </a>
+                <a href="#mini" class="apartment-link">
+                    <h3>mini</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-tabs">
+                <button class="gallery-tab active" data-tab="classic">CLASSIC</button>
+                <button class="gallery-tab" data-tab="mini">mini</button>
+            </div>
+            <div class="gallery-grid" id="classic-gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=768&h=1152&fit=crop" alt="Classic apartment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=768&h=960&fit=crop" alt="Classic apartment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=768&h=960&fit=crop" alt="Classic apartment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560185009-5bf9f2849488?w=768&h=960&fit=crop" alt="Classic apartment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=768&h=960&fit=crop" alt="Classic apartment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560184897-ae75f418493e?w=768&h=960&fit=crop" alt="Classic apartment">
+                </div>
+            </div>
+            <div class="gallery-grid hidden" id="mini-gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=819&h=1024&fit=crop" alt="Mini apartment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=819&h=1024&fit=crop" alt="Mini apartment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=819&h=1024&fit=crop" alt="Mini apartment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=819&h=1024&fit=crop" alt="Mini apartment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=819&h=1024&fit=crop" alt="Mini apartment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=819&h=1024&fit=crop" alt="Mini apartment">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="amenities">
+        <div class="container">
+            <h2 class="section-title">Amenities.</h2>
+            <p class="amenities-subtitle">Each apartment offers a unique accommodation experience</p>
+            <div class="amenities-grid">
+                <div class="amenity-item">
+                    <div class="amenity-icon">📶</div>
+                    <span>Internet Access</span>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">❄️</div>
+                    <span>Air Conditioning</span>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🔥</div>
+                    <span>Heating</span>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🍳</div>
+                    <span>Kitchen</span>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">📺</div>
+                    <span>Television</span>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🏠</div>
+                    <span>Balcony</span>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🏖️</div>
+                    <span>Beach Access</span>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🧺</div>
+                    <span>Washing Machine</span>
+                </div>
+            </div>
+            <div class="book-now-section">
+                <a href="#book" class="book-now-btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>LOGO HERE</h3>
+                    <p>Address here</p>
+                </div>
+                <div class="footer-contact">
+                    <div class="contact-item">
+                        <span class="contact-label">Mail</span>
+                        <a href="mailto:info@nueve.gr">XYZ@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Phone</span>
+                        <a href="tel:+306976258608">+91 4866375868</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">social</span>
+                        <div class="social-links">
+                            <a href="#" class="social-link">instagram</a>
+                            <a href="#" class="social-link">facebook</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>apartments</h4>
+                        <a href="#classic">CLASSIC</a>
+                        <a href="#mini">mini</a>
+                    </div>
+                    <div class="footer-section">
+                        <a href="#experiences">experiences</a>
+                        <a href="#book">booking</a>
+                        <a href="#contact">contact</a>
+                        <a href="#privacy">privacy</a>
+                        <span>cookies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 All rights reserved.</p>
+                <a href="#" class="footer-credit">MADE BY Pratyush Pushkar</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
