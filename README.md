@@ -56,12 +56,6 @@ Estate webpage/
 └── README.md
 ```
 
-## Contact
-
-For inquiries, reach out through:
-- Email: XYZ@gmail.com
-- Phone: +91 4866375868
-
 ## Credits
 
 Created by Pratyush Pushkar
